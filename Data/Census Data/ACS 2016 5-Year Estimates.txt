@@ -1,0 +1,495 @@
+--------------------------------------------------------------------------------
+Codebook for Social Explorer report ID: R13293532
+--------------------------------------------------------------------------------
+
+Contents
+    - Table Summary
+    - Data Dictionary
+    - Citation and Use
+
+
+--------------------------------------------------------------------------------
+Table Summary
+--------------------------------------------------------------------------------
+ 
+Survey:           ACS 2016 (5-Year Estimates)
+Dataset:          Social Explorer Tables:  ACS 2016 (5-Year Estimates)
+Tables:
+
+      1. Total Population
+         Universe:  Total Population
+         Name:      A00001
+         Variables:
+            A00001_001:   Total Population
+
+
+      2. Population Density (Per Sq. Mile)
+         Universe:  Total Population
+         Name:      A00002
+         Variables:
+            A00002_001:   Total Population
+            A00002_002:   Population Density (Per Sq. Mile)
+            A00002_003:   Area (Land)
+
+
+      3. Land Area (Sq. Miles)
+         Universe:  Area Total
+         Name:      A00003
+         Variables:
+            A00003_001:   Area Total:
+            A00003_002:      Area (Land)
+            A00003_003:      Area (Water)
+
+
+      4. Age
+         Universe:  Total Population
+         Name:      A01001
+         Variables:
+            A01001_001:   Total Population:
+            A01001_002:      Under 5 Years
+            A01001_003:      5 to 9 Years
+            A01001_004:      10 to 14 Years
+            A01001_005:      15 to 17 Years
+            A01001_006:      18 to 24 Years
+            A01001_007:      25 to 34 Years
+            A01001_008:      35 to 44 Years
+            A01001_009:      45 to 54 Years
+            A01001_010:      55 to 64 Years
+            A01001_011:      65 to 74 Years
+            A01001_012:      75 to 84 Years
+            A01001_013:      85 Years and Over
+
+
+      5. Median Gross Rent by Year Householder Moved Into Unit
+         Universe:  Universe: Renter-occupied housing units paying cash rent
+         Name:      A18007
+         Variables:
+            A18007_001:   Median Gross Rent:
+            A18007_002:      Moved in 2015 or Later
+            A18007_003:      Moved in 2010 to 2014
+            A18007_004:      Moved in 2000 to 2009
+            A18007_005:      Moved in 1990 to 1999
+            A18007_006:      Moved in 1980 to 1989
+            A18007_007:      Moved in 1979 or Earlier
+
+
+      6. Median Gross Rent by Year Structure Built
+         Universe:  Universe: Renter-occupied housing units paying cash rent
+         Name:      A18008
+         Variables:
+            A18008_001:   Median Gross Rent:
+            A18008_002:      Built 2014 or Later
+            A18008_003:      Built 2010 to 2013
+            A18008_004:      Built 2000 to 2009
+            A18008_005:      Built 1990 to 1999
+            A18008_006:      Built 1980 to 1989
+            A18008_007:      Built 1970 to 1979
+            A18008_008:      Built 1960 to 1969
+            A18008_009:      Built 1950 to 1959
+            A18008_010:      Built 1940 to 1949
+            A18008_011:      Built 1939 or Earlier
+
+
+      7. Median Gross Rent as a Percentage of Household Income in the Past 12 Months (Dollars)
+         Universe:  Renter-occupied housing units paying cash rent
+         Name:      A18003
+         Variables:
+            A18003_001:   Median Gross Rent as a Percentage of Household  Income in the Past 12 Months (Dollars)
+
+
+      8. Median Gross Rent
+         Universe:  Renter-occupied housing units paying cash rent
+         Name:      A18009
+         Variables:
+            A18009_001:   Median Gross Rent
+
+
+      9. Residents Paying More Than 30% or at least 50% of Income on Rent
+         Universe:  
+         Name:      B18002
+         Variables:
+            B18002_001:   Renter-Occupied Housing Units:
+            B18002_002:      30 to 49 Percent
+            B18002_003:      50 percent or More
+
+
+      10. Gross Rent (Housing Units with Cash Rent)
+          Universe:  Renter-occupied housing units with cash rent
+          Name:      A18001
+          Variables:
+             A18001_001:   Renter-Occupied Housing Units with Cash Rent:
+             A18001_002:      Less than $300
+             A18001_003:      $300 to $599
+             A18001_004:      $600 to $799
+             A18001_005:      $800 to $999
+             A18001_006:      $1,000 to $1,249
+             A18001_007:      $1,250 to $1,499
+             A18001_008:      $1,500 to $1,999
+             A18001_009:      $2,000 or More
+
+
+      11. Total Population in Renter-Occupied Housing Units by Year Householder Moved Into Unit
+          Universe:  Universe:  Total population in Renter-Occupied Housing Units
+          Name:      A10063B
+          Variables:
+             A10063B_001:   Total Population in Renter-Occupied Housing Units:
+             A10063B_002:      Moved in 2015 or Later
+             A10063B_003:      Moved in 2010 to 2014
+             A10063B_004:      Moved in 2000 to 2009
+             A10063B_005:      Moved in 1990 to 1999
+             A10063B_006:      Moved in 1980 to 1989
+             A10063B_007:      Moved in 1979 or Earlier
+
+
+      12. Year Householder Moved Into Unit (Renter-Occupied Housing Units)
+          Universe:  Universe:  Renter-Occupied Housing Units
+          Name:      A10056B
+          Variables:
+             A10056B_001:   Renter-Occupied Housing Units:
+             A10056B_002:      Moved in 2015 or Later
+             A10056B_003:      Moved in 2010 to 2014
+             A10056B_004:      Moved in 2000 to 2009
+             A10056B_005:      Moved in 1990 to 1999
+             A10056B_006:      Moved in 1980 to 1989
+             A10056B_007:      Moved in 1979 or Earlier
+
+
+      13. Housing Units by Year Householder Moved Into Unit
+          Universe:  Universe:  Occupied housing units
+          Name:      A10031
+          Variables:
+             A10031_001:   Occupied Housing Units:
+             A10031_002:      Moved in 2015 or Later
+             A10031_003:      Moved in 2010 to 2014
+             A10031_004:      Moved in 2000 to 2009
+             A10031_005:      Moved in 1990 to 1999
+             A10031_006:      Moved in 1980 to 1989
+             A10031_007:      Moved in 1979 or Earlier
+
+
+      14. Year Structure Built (Renter-Occupied Housing Units)
+          Universe:  Universe:  Renter-Occupied Housing Units
+          Name:      A10059B
+          Variables:
+             A10059B_001:   Renter-Occupied Housing Units:
+             A10059B_002:      Built 2014 or Later
+             A10059B_003:      Built 2010 to 2013
+             A10059B_004:      Built 2000 to 2009
+             A10059B_005:      Built 1990 to 1999
+             A10059B_006:      Built 1980 to 1989
+             A10059B_007:      Built 1970 to 1979
+             A10059B_008:      Built 1960 to 1969
+             A10059B_009:      Built 1950 to 1959
+             A10059B_010:      Built 1940 to 1949
+             A10059B_011:      Built 1939 or Earlier
+
+
+      15. Occupied Housing Units by Year Structure Built
+          Universe:  Universe:  Occupied housing units
+          Name:      A10055
+          Variables:
+             A10055_001:   Occupied Housing Units:
+             A10055_002:      Built 2014 or Later
+             A10055_003:      Built 2010 to 2013
+             A10055_004:      Built 2000 to 2009
+             A10055_005:      Built 1990 to 1999
+             A10055_006:      Built 1980 to 1989
+             A10055_007:      Built 1970 to 1979
+             A10055_008:      Built 1960 to 1969
+             A10055_009:      Built 1950 to 1959
+             A10055_010:      Built 1940 to 1949
+             A10055_011:      Built 1939 or Earlier
+
+
+      16. Vacancy Status by Type of Vacancy
+          Universe:  Vacant housing units
+          Name:      A10047
+          Variables:
+             A10047_001:   Vacant Housing Units:
+             A10047_002:      For Rent
+             A10047_003:      For Sale Only
+             A10047_004:      Other Vacant
+
+
+      17. Households with Public Assistance Income
+          Universe:  Households
+          Name:      A10014
+          Variables:
+             A10014_001:   Households:
+             A10014_002:      With Public Assistance Income
+             A10014_003:      No Public Assistance Income
+
+
+      18. Monthly Housing Cost (Renter-Occupied Housing Units)
+          Universe:  Universe:  Renter-occupied housing units
+          Name:      A10038
+          Variables:
+             A10038_001:   Renter-Occupied Housing Units:
+             A10038_002:      Less than $300
+             A10038_003:      $300 to $499
+             A10038_004:      $500 to $799
+             A10038_005:      $800 to $999
+             A10038_006:      $1,000 to $1,499
+             A10038_007:      $1,500 to $1,999
+             A10038_008:      $2,000 to $2,499
+             A10038_009:      $2,500 to $2,999
+             A10038_010:      $3,000 or More
+             A10038_011:      No Cash Rent
+
+
+      19. Monthly Housing Costs as a Percentage of Household Income in the Past 12 Months (Renter-Occupied Housing Units)
+          Universe:  Universe:  Renter-Occupied Housing Units
+          Name:      A10039B
+          Variables:
+             A10039B_001:   Renter-Occupied Housing Units:
+             A10039B_002:      Less than $20,000:
+             A10039B_003:         Less than 20 Percent
+             A10039B_004:         20 to 29 Percent
+             A10039B_005:         30 Percent or More
+             A10039B_006:      $20,000 to $34,999:
+             A10039B_007:         Less than 20 Percent
+             A10039B_008:         20 to 29 Percent
+             A10039B_009:         30 Percent or More
+             A10039B_010:      $35,000 to $49,999:
+             A10039B_011:         Less than 20 Percent
+             A10039B_012:         20 to 29 Percent
+             A10039B_013:         30 Percent or More
+             A10039B_014:      $50,000 to $74,999:
+             A10039B_015:         Less than 20 Percent
+             A10039B_016:         20 to 29 Percent
+             A10039B_017:         30 Percent or More
+             A10039B_018:      $75,000 or More:
+             A10039B_019:         Less than 20 Percent
+             A10039B_020:         20 to 29 Percent
+             A10039B_021:         30 Percent or More
+             A10039B_022:      Zero or Negative Income
+             A10039B_023:      No Cash Rent
+
+
+
+
+
+ 
+ 
+ 
+--------------------------------------------------------------------------------
+Data Dictionary
+--------------------------------------------------------------------------------
+ 
+Variables 
+      FIPS:           FIPS
+      NAME:           Name of Area
+      QName:          Qualifying Name
+      STUSAB:         State/U.S.-Abbreviation (USPS)
+      SUMLEV:         Summary Level
+      GEOCOMP:        Geographic Component
+      FILEID:         File Identification
+      LOGRECNO:       Logical Record Number
+      US:             US
+      REGION:         Region
+      DIVISION:       Division
+      STATECE:        State (Census Code)
+      STATE:          State (FIPS)
+      COUNTY:         County
+      COUSUB:         County Subdivision (FIPS)
+      PLACE:          Place (FIPS Code)
+      PLACESE:        Place (State FIPS + Place FIPS)
+      TRACT:          Census Tract
+      BLKGRP:         Block Group
+      CONCIT:         Consolidated City
+      AIANHH:         American Indian Area/Alaska Native Area/Hawaiian Home Land (Census)
+      AIANHHFP:       American Indian Area/Alaska Native Area/Hawaiian Home Land (FIPS)
+      AIHHTLI:        American Indian Trust Land/Hawaiian Home Land Indicator
+      AITSCE:         American Indian Tribal Subdivision (Census)
+      AITS:           American Indian Tribal Subdivision (FIPS)
+      ANRC:           Alaska Native Regional Corporation (FIPS)
+      CBSA:           Metropolitan and Micropolitan Statistical Area
+      CSA:            Combined Statistical Area
+      METDIV:         Metropolitan Division
+      MACC:           Metropolitan Area Central City
+      MEMI:           Metropolitan/Micropolitan Indicator Flag
+      NECTA:          New England City and Town Combined Statistical Area
+      CNECTA:         New England City and Town Area
+      NECTADIV:       New England City and Town Area Division
+      UA:             Urban Area
+      UACP:           Urban Area Central Place
+      CDCURR:         Current Congressional District ***
+      SLDU:           State Legislative District Upper
+      SLDL:           State Legislative District Lower
+      VTD:            Voting District
+      ZCTA3:          ZIP Code Tabulation Area (3-digit)
+      ZCTA5:          ZIP Code Tabulation Area (5-digit)
+      SUBMCD:         Subbarrio (FIPS)
+      SDELM:          School District (Elementary)
+      SDSEC:          School District (Secondary)
+      SDUNI:          School District (Unified)
+      UR:             Urban/Rural
+      PCI:            Principal City Indicator
+      TAZ:            Traffic Analysis Zone
+      UGA:            Urban Growth Area
+      PUMA5:          Public Use Microdata Area - 5% File
+      PUMA1:          Public Use Microdata Area - 1% File
+      GEOID:          Geographic Identifier
+      BTTR:           Tribal Tract
+      BTBG:           Tribal Block Group
+      AREALAND:       Area (Land)
+      AREAWATR:       Area (Water)
+      A00001_001:     Total Population
+      A00002_001:     Total Population
+      A00002_002:     Population Density (Per Sq. Mile)
+      A00002_003:     Area (Land)
+      A00003_001:     Area Total:
+      A00003_002:     Area Total: Area (Land)
+      A00003_003:     Area Total: Area (Water)
+      A01001_001:     Total Population:
+      A01001_002:     Total Population: Under 5 Years
+      A01001_003:     Total Population: 5 to 9 Years
+      A01001_004:     Total Population: 10 to 14 Years
+      A01001_005:     Total Population: 15 to 17 Years
+      A01001_006:     Total Population: 18 to 24 Years
+      A01001_007:     Total Population: 25 to 34 Years
+      A01001_008:     Total Population: 35 to 44 Years
+      A01001_009:     Total Population: 45 to 54 Years
+      A01001_010:     Total Population: 55 to 64 Years
+      A01001_011:     Total Population: 65 to 74 Years
+      A01001_012:     Total Population: 75 to 84 Years
+      A01001_013:     Total Population: 85 Years and Over
+      A18007_001:     Median Gross Rent
+      A18007_002:     Median Gross Rent: Moved in 2015 or Later
+      A18007_003:     Median Gross Rent: Moved in 2010 to 2014
+      A18007_004:     Median Gross Rent: Moved in 2000 to 2009
+      A18007_005:     Median Gross Rent: Moved in 1990 to 1999
+      A18007_006:     Median Gross Rent: Moved in 1980 to 1989
+      A18007_007:     Median Gross Rent: Moved in 1979 or Earlier
+      A18008_001:     Median Gross Rent
+      A18008_002:     Median Gross Rent: Built 2014 or Later
+      A18008_003:     Median Gross Rent: Built 2010 to 2013
+      A18008_004:     Median Gross Rent: Built 2000 to 2009
+      A18008_005:     Median Gross Rent: Built 1990 to 1999
+      A18008_006:     Median Gross Rent: Built 1980 to 1989
+      A18008_007:     Median Gross Rent: Built 1970 to 1979
+      A18008_008:     Median Gross Rent: Built 1960 to 1969
+      A18008_009:     Median Gross Rent: Built 1950 to 1959
+      A18008_010:     Median Gross Rent: Built 1940 to 1949
+      A18008_011:     Median Gross Rent: Built 1939 or Earlier
+      A18003_001:     Median Gross Rent as a Percentage of Household  Income in the Past 12 Months (Dollars)
+      A18009_001:     Median Gross Rent [Dollars adjusted for inflation to match value in 2021]
+      B18002_001:     Renter-Occupied Housing Units
+      B18002_002:     Renter-Occupied Housing Units: 30 to 49 Percent
+      B18002_003:     Renter-Occupied Housing Units: 50 percent or More
+      A18001_001:     Renter-Occupied Housing Units with Cash Rent: [Dollars adjusted for inflation to match value in 2021]
+      A18001_002:     Renter-Occupied Housing Units with Cash Rent: Less than $300 [Dollars adjusted for inflation to match value in 2021]
+      A18001_003:     Renter-Occupied Housing Units with Cash Rent: $300 to $599 [Dollars adjusted for inflation to match value in 2021]
+      A18001_004:     Renter-Occupied Housing Units with Cash Rent: $600 to $799 [Dollars adjusted for inflation to match value in 2021]
+      A18001_005:     Renter-Occupied Housing Units with Cash Rent: $800 to $999 [Dollars adjusted for inflation to match value in 2021]
+      A18001_006:     Renter-Occupied Housing Units with Cash Rent: $1,000 to $1,249 [Dollars adjusted for inflation to match value in 2021]
+      A18001_007:     Renter-Occupied Housing Units with Cash Rent: $1,250 to $1,499 [Dollars adjusted for inflation to match value in 2021]
+      A18001_008:     Renter-Occupied Housing Units with Cash Rent: $1,500 to $1,999 [Dollars adjusted for inflation to match value in 2021]
+      A18001_009:     Renter-Occupied Housing Units with Cash Rent: $2,000 or More [Dollars adjusted for inflation to match value in 2021]
+      A10063B_001:    Total Population in Renter-Occupied Housing Units [Dollars adjusted for inflation to match value in 2021]
+      A10063B_002:    Total Population in Renter-Occupied Housing Units: Moved in 2015 or Later [Dollars adjusted for inflation to match value in 2021]
+      A10063B_003:    Total Population in Renter-Occupied Housing Units: Moved in 2010 to 2014 [Dollars adjusted for inflation to match value in 2021]
+      A10063B_004:    Total Population in Renter-Occupied Housing Units: Moved in 2000 to 2009 [Dollars adjusted for inflation to match value in 2021]
+      A10063B_005:    Total Population in Renter-Occupied Housing Units: Moved in 1990 to 1999 [Dollars adjusted for inflation to match value in 2021]
+      A10063B_006:    Total Population in Renter-Occupied Housing Units: Moved in 1980 to 1989 [Dollars adjusted for inflation to match value in 2021]
+      A10063B_007:    Total Population in Renter-Occupied Housing Units: Moved in 1979 or Earlier [Dollars adjusted for inflation to match value in 2021]
+      A10056B_001:    Renter-Occupied Housing Units
+      A10056B_002:    Renter-Occupied Housing Units: Moved in 2015 or Later
+      A10056B_003:    Renter-Occupied Housing Units: Moved in 2010 to 2014
+      A10056B_004:    Renter-Occupied Housing Units: Moved in 2000 to 2009
+      A10056B_005:    Renter-Occupied Housing Units: Moved in 1990 to 1999
+      A10056B_006:    Renter-Occupied Housing Units: Moved in 1980 to 1989
+      A10056B_007:    Renter-Occupied Housing Units: Moved in 1979 or Earlier
+      A10031_001:     Occupied Housing Units
+      A10031_002:     Occupied Housing Units: Moved in 2015 or Later
+      A10031_003:     Occupied Housing Units: Moved in 2010 to 2014
+      A10031_004:     Occupied Housing Units: Moved in 2000 to 2009
+      A10031_005:     Occupied Housing Units: Moved in 1990 to 1999
+      A10031_006:     Occupied Housing Units: Moved in 1980 to 1989
+      A10031_007:     Occupied Housing Units: Moved in 1979 or Earlier
+      A10059B_001:    Renter-Occupied Housing Units
+      A10059B_002:    Renter-Occupied Housing Units: Built 2014 or Later
+      A10059B_003:    Renter-Occupied Housing Units: Built 2010 to 2013
+      A10059B_004:    Renter-Occupied Housing Units: Built 2000 to 2009
+      A10059B_005:    Renter-Occupied Housing Units: Built 1990 to 1999
+      A10059B_006:    Renter-Occupied Housing Units: Built 1980 to 1989
+      A10059B_007:    Renter-Occupied Housing Units: Built 1970 to 1979
+      A10059B_008:    Renter-Occupied Housing Units: Built 1960 to 1969
+      A10059B_009:    Renter-Occupied Housing Units: Built 1950 to 1959
+      A10059B_010:    Renter-Occupied Housing Units: Built 1940 to 1949
+      A10059B_011:    Renter-Occupied Housing Units: Built 1939 or Earlier
+      A10055_001:     Occupied Housing Units
+      A10055_002:     Occupied Housing Units: Built 2014 or Later
+      A10055_003:     Occupied Housing Units: Built 2010 to 2013
+      A10055_004:     Occupied Housing Units: Built 2000 to 2009
+      A10055_005:     Occupied Housing Units: Built 1990 to 1999
+      A10055_006:     Occupied Housing Units: Built 1980 to 1989
+      A10055_007:     Occupied Housing Units: Built 1970 to 1979
+      A10055_008:     Occupied Housing Units: Built 1960 to 1969
+      A10055_009:     Occupied Housing Units: Built 1950 to 1959
+      A10055_010:     Occupied Housing Units: Built 1940 to 1949
+      A10055_011:     Occupied Housing Units: Built 1939 or Earlier
+      A10047_001:     Vacant Housing Units:
+      A10047_002:     Vacant Housing Units: for Rent
+      A10047_003:     Vacant Housing Units: for Sale Only
+      A10047_004:     Vacant Housing Units: Other Vacant
+      A10014_001:     Households:
+      A10014_002:     Households: with Public Assistance Income
+      A10014_003:     Households: No Public Assistance Income
+      A10038_001:     Renter-Occupied Housing Units
+      A10038_002:     Renter-Occupied Housing Units: Less than $300
+      A10038_003:     Renter-Occupied Housing Units: $300 to $499
+      A10038_004:     Renter-Occupied Housing Units: $500 to $799
+      A10038_005:     Renter-Occupied Housing Units: $800 to $999
+      A10038_006:     Renter-Occupied Housing Units: $1,000 to $1,499
+      A10038_007:     Renter-Occupied Housing Units: $1,500 to $1,999
+      A10038_008:     Renter-Occupied Housing Units: $2,000 to $2,499
+      A10038_009:     Renter-Occupied Housing Units: $2,500 to $2,999
+      A10038_010:     Renter-Occupied Housing Units: $3,000 or More
+      A10038_011:     Renter-Occupied Housing Units: No Cash Rent
+      A10039B_001:    Renter-Occupied Housing Units
+      A10039B_002:    Renter-Occupied Housing Units: Less than $20,000
+      A10039B_003:    Renter-Occupied Housing Units: Less than $20,000: Less than 20 Percent
+      A10039B_004:    Renter-Occupied Housing Units: Less than $20,000: 20 to 29 Percent
+      A10039B_005:    Renter-Occupied Housing Units: Less than $20,000: 30 Percent or More
+      A10039B_006:    Renter-Occupied Housing Units: $20,000 to $34,999
+      A10039B_007:    Renter-Occupied Housing Units: $20,000 to $34,999: Less than 20 Percent
+      A10039B_008:    Renter-Occupied Housing Units: $20,000 to $34,999: 20 to 29 Percent
+      A10039B_009:    Renter-Occupied Housing Units: $20,000 to $34,999: 30 Percent or More
+      A10039B_010:    Renter-Occupied Housing Units: $35,000 to $49,999
+      A10039B_011:    Renter-Occupied Housing Units: $35,000 to $49,999: Less than 20 Percent
+      A10039B_012:    Renter-Occupied Housing Units: $35,000 to $49,999: 20 to 29 Percent
+      A10039B_013:    Renter-Occupied Housing Units: $35,000 to $49,999: 30 Percent or More
+      A10039B_014:    Renter-Occupied Housing Units: $50,000 to $74,999
+      A10039B_015:    Renter-Occupied Housing Units: $50,000 to $74,999: Less than 20 Percent
+      A10039B_016:    Renter-Occupied Housing Units: $50,000 to $74,999: 20 to 29 Percent
+      A10039B_017:    Renter-Occupied Housing Units: $50,000 to $74,999: 30 Percent or More
+      A10039B_018:    Renter-Occupied Housing Units: $75,000 or More
+      A10039B_019:    Renter-Occupied Housing Units: $75,000 or More: Less than 20 Percent
+      A10039B_020:    Renter-Occupied Housing Units: $75,000 or More: 20 to 29 Percent
+      A10039B_021:    Renter-Occupied Housing Units: $75,000 or More: 30 Percent or More
+      A10039B_022:    Renter-Occupied Housing Units: Zero or Negative Income
+      A10039B_023:    Renter-Occupied Housing Units: No Cash Rent
+
+
+
+
+--------------------------------------------------------------------------------
+Citation and Use of Data
+--------------------------------------------------------------------------------
+ 
+All persons are granted a limited license to use this documentation and the
+accompanying data, subject to the following conditions:
+
+* Publications and research reports employing the data
+  must cite it appropriately. The citation should include the following:
+
+	  www.socialexplorer.com
+	  New York City, NY: Social Explorer 2023
+
+
+* Citations should also include the URL for this report:
+
+    http://www.socialexplorer.com/pub/reportdata/HtmlResults.aspx?reportid=R13293532
+
+If you have any questions contact info@socialexplorer.com
