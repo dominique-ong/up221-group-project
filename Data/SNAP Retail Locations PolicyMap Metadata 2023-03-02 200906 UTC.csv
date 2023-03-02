@@ -1,0 +1,10 @@
+"column_name","full_label","length","data_type","decimal_places","source"
+"store_name","Store Name",59,"string",,"USDA",
+"address","Address",44,"string",,"USDA",
+"address2","Address 2",40,"string",,"USDA",
+"city","City",26,"string",,"USDA",
+"state","State",2,"string",,"USDA",
+"zip5","Zip",5,"string",,"USDA",
+"county","County",21,"string",,"USDA",
+"Source","data source",130,"string",,
+"Location","predefined location or custom region",225,"string",,
